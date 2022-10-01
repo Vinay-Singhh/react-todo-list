@@ -45,7 +45,7 @@ const App = () => {
         .then((response) => response.json())
         .then((json) => console.log(json));
 
-      console.log('inside ELSE IF');
+      // console.log('inside ELSE IF');
       setTodos(
         todos.map((elem) => {
           if (elem.id === isEditItem) {
